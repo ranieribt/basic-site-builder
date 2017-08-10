@@ -1,6 +1,8 @@
-# Basic Site Builder
+# Sitendeavor
 
-What's needed to build a basic web page?
+## "Less mass. Less software."
+
+What's needed to build a basic website?
 
 * Text Editor
 * Version Control System

@@ -1,10 +1,11 @@
 'use strict'
 
-const _page = require('./_page')
+const page = require('../page')
+
 const index = {}
 
 index.content =
-`<h1>${_page.title}</h1>
+`<h1>${page.title}</h1>
 <p>Homepage content</p>`
 
-module.exports = Object.assign(_page, index)
+module.exports = page.create(index)
