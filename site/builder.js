@@ -5,4 +5,4 @@ const layout = require('./layout')
 const index = require('./content/index')
 const { log } = console
 
-log(layout( index))
+log(layout(index))
