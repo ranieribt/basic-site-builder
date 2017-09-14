@@ -1,0 +1,33 @@
+{
+  "name": "sitendeavor",
+  "version": "0.1.0",
+  "description": "Static site generator with plain Markdown, HTML, CSS, an JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --fix --verbose",
+    "pretest": "npm run lint",
+    "test": "jest test"
+  },
+  "standard": {
+    "ignore": [],
+    "globals": [
+      "describe",
+      "test",
+      "expect"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranieribt/sitendeavor.git"
+  },
+  "author": "Ranieri Teixeira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ranieribt/sitendeavor/issues"
+  },
+  "homepage": "https://github.com/ranieribt/sitendeavor#readme",
+  "devDependencies": {
+    "jest": "20.0.4",
+    "standard": "10.0.2"
+  }
+}
